@@ -23,3 +23,6 @@ go.work.sum
 
 # env file
 .env
+
+# emacs autosave files that can be safely ignored.
+*~
