@@ -3,7 +3,7 @@ package main;
 import (
 	"fmt"
 	"os"
-	d1 "github.com/vishnuvyas/advent_of_code/aoc2024/day1" // alias  "day1/problem1" as p1
+	d1 "github.com/vishnuvyas/advent_of_code/aoc2024/day1" // alias  "day1/problem1" as d1
 )
 
 func main() {
