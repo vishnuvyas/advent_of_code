@@ -6,14 +6,14 @@ import (
 )
 
 func Problem1Solution(filename string) {
-	list1, list2 := ReadInputFile(filename)
+	list1, list2 := readInputFile(filename)
 	sort.Ints(list1)
 	sort.Ints(list2)
 	totalDistance := 0
 	
 	for i := 0 ; i < len(list1) ; i++ {
 		distance := list1[i] - list2[i]
-		distance = IntAbs(distance)
+		distance = intAbs(distance)
 		totalDistance += distance
 	}
 

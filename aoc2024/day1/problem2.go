@@ -6,7 +6,7 @@ import (
 )
 
 func Problem2Solution(filename string) {
-	list1, list2 := ReadInputFile(filename)
+	list1, list2 := readInputFile(filename)
 	hist := make(map[int]int)
 
 	for i := 0; i < len(list2); i++ {

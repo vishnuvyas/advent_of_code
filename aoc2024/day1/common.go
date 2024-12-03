@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func ReadInputFile(filename string) ([]int, []int) {
+func readInputFile(filename string) ([]int, []int) {
 	list1 := make([]int, 0, 1000)
 	list2 := make([]int, 0, 1000)
 	
@@ -38,7 +38,7 @@ func ReadInputFile(filename string) ([]int, []int) {
 	return list1, list2
 }
 
-func IntAbs(x int) int {
+func intAbs(x int) int {
 	if x < 0 {
 		return -x
 	}
